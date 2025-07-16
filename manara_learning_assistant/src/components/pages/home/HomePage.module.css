@@ -1,0 +1,80 @@
+/* Main layout for the home page */
+.homeLayout {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* 2 parts for the feed, 1 part for the sidebar */
+  gap: 24px;
+  padding: 24px;
+  /* The background color is now controlled by the theme in HomePage.jsx */
+}
+
+/* Search Bar styling */
+.searchInput {
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  font-size: 1rem;
+  margin-left: 8px;
+  /* Use the theme's text color */
+  color: inherit;
+}
+
+/* Social Follow Bar */
+.socialFollow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Post Card Styling */
+.postHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.postAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.postAuthorInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.postImage {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  object-fit: cover;
+}
+
+.postActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.postVote {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Right Sidebar Styling */
+.problemList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.problemItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,166 @@
+.section {
+  padding: 80px 24px;
+  text-align: center;
+}
+
+.sectionAlternate {
+  background-color: #f4f7f6; /* A light gray for alternating sections */
+}
+
+/* Dark mode specific background for alternating sections */
+[data-theme="dark"] .sectionAlternate {
+  background-color: #1e1e1e; /* Matches your dark theme paper color */
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroButtons {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.heroImage {
+  margin-top: 48px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.featureCard {
+  text-align: left;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.featureIcon {
+  font-size: 40px !important;
+  margin-bottom: 16px;
+  color: #0ABAB5; /* Your primary color */
+}
+
+.pricingCard {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricingCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.pricingCardPopular {
+  border: 2px solid #0ABAB5; /* Highlight the popular plan */
+  transform: scale(1.05);
+}
+
+.pricingCardContent {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricingFeatures {
+  text-align: left;
+  margin-top: 16px;
+  flex-grow: 1;
+}
+
+.footer {
+  padding: 48px 24px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footerSocial {
+  margin-top: 16px;
+}
+
+/* --- Topbar Styles --- */
+.appBar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  transition: background-color 0.3s ease-in-out !important;
+  color: #fff !important;
+}
+
+.appBarSolid {
+  background-color: rgba(255, 255, 255, 0.95) !important; /* Semi-transparent white for light mode */
+  backdrop-filter: blur(10px);
+  color: #212121 !important; /* Dark text for light mode */
+}
+
+[data-theme="dark"] .appBarSolid {
+    background-color: rgba(30, 30, 30, 0.85) !important; /* Semi-transparent dark for dark mode */
+    color: #fff !important;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 24px !important;
+}
+
+.navLinks {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .navLinks {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+.mobileMenu {
+  display: block;
+}
+
+@media (min-width: 900px) {
+  .mobileMenu {
+    display: none !important;
+  }
+}
+.heroBackground {
+  position: relative;
+  padding: 80px 24px;
+  text-align: center;
+}
+.gradientText {
+  background: linear-gradient(to right, #0ABAB5, #1CB5E0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.aboutImage {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+.gradientText {
+  background: linear-gradient(90deg, #0ABAB5 0%, #0AC4B5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.pricingCard {
+  transition: box-shadow 0.3s ease;
+}
+
+.pricingCard:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.pricingCardPopular {
+  border: 2px solid #0ABAB5;
+}
+

@@ -1,0 +1,6 @@
+.primaryButton {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+  padding: 12px 0 !important; /* 12px top/bottom */
+  font-weight: bold !important;
+}

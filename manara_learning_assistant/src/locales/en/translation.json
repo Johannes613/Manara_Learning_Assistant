@@ -1,0 +1,175 @@
+{
+  "sidebar": {
+    "home": "Home",
+    "courses": "Courses",
+    "problems": "Problems",
+    "projects": "Projects",
+    "rating": "Rating",
+    "posts": "Posts",
+    "whatsapp": "WhatsApp",
+    "settings": "Settings",
+    "legal": "Terms & Privacy",
+    "addCourse": "Add Course",
+    "addProject": "Add Project",
+    "addPost": "Add Post",
+    "addExam": "Add Exam"
+  },
+  "examsPage": {
+    "title": "Practice Questions",
+    "searchPlaceholder": "Search by keyword...",
+    "filterYear": "Filter by year",
+    "filterSemester": "Filter by semester",
+    "filterDepartment": "Filter by department",
+    "filterCourse": "Filter by course",
+    "practiceNow": "Practice Now"
+  },
+  "topbar": {
+    "signIn": "Sign In",
+    "logout": "Logout"
+  },
+  "hero": {
+    "title": "Unlock Your Academic Potential",
+    "subtitle": {
+      "line1": "Access a vast repository of past exams and projects from Manara platform",
+      "line2": "Get AI-powered explanations and collaborate with peers to excel in your studies."
+    },
+    "cta": "Get Started for Free",
+    "dashboard": "Dashboard",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "heading": "Why Choose",
+    "highlight": "Manara?",
+    "subheading": "Whether you're prepping for finals or submitting a capstone project, Manara supports your academic journey with powerful features tailored for students.",
+    "ai": {
+      "title": "AI-Powered Explanations",
+      "description": "Generate high-quality, step-by-step solutions and explanations for any question."
+    },
+    "db": {
+      "title": "Vast Exam Repository",
+      "description": "Access a huge library of practice questions and projects, filterable by course and instructor."
+    },
+    "upload": {
+      "title": "Effortless Uploads",
+      "description": "Contribute to the community by easily uploading your own study materials and projects."
+    },
+    "availability": {
+      "title": "24/7 Availability",
+      "description": "Our platform is always available, ready to help you study whenever you need it."
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Empowering Your Academic Journey with AI",
+    "description": "Our AI-powered platform helps you study smarter, not harder. We provide tools to understand complex topics, prepare for exams, and excel in your coursework with ease.",
+    "features": [
+      "Intelligent Answer Suggestions",
+      "AI-Powered Answer Explanations",
+      "Adaptive Learning for Personalized Results",
+      "Seamless Integration for Project Downloads"
+    ],
+    "button": "Go to Dashboard"
+  },
+  "video": {
+  "title": "See the App in",
+  "highlight": "Action",
+  "description": "Watch a quick walkthrough of the dashboard to see how our features can help you streamline your studies and boost your grades."
+},
+"contact": {
+  "heading": "Get in",
+  "highlight": "Touch",
+  "subheading": "Have a question or suggestion? We'd love to hear from you.",
+  "location": "Abu Dhabi University, Abu Dhabi",
+  "name": "Full Name",
+  "email": "Email",
+  "phone": "Phone Number",
+  "message": "Your Message",
+  "submit": "Submit",
+  "sending": "Sending...",
+  "captchaVerified": "reCAPTCHA verified!",
+  "fillRequired": "Please fill in all required fields.",
+  "verifyCaptcha": "Please verify reCAPTCHA first.",
+  "success": "Thank you, {{name}}! Your message has been sent."
+},
+"faq": {
+  "title": "Frequently Asked",
+  "highlight": "Questions",
+  "q1": "How do I find exams for a specific course or instructor?",
+  "a1": "You can use the search bar and filter options on the 'Exams' page. Simply type in the course code (e.g., 'CSE-101') or the instructor's name and select the desired semester or year to narrow down the results.",
+  "q2": "What is the 'AI-Powered Explanation' feature?",
+  "a2": "When viewing an exam question, you can click the 'Get AI Explanation' button. Our AI will provide a detailed, step-by-step breakdown of the solution, helping you understand the underlying concepts, not just the final answer.",
+  "q3": "Is it free to use the Manara?",
+  "a3": "Yes! We offer a free 'Basic' plan that allows you to browse all materials and get a limited number of AI explanations per month. For unlimited access and advanced features, you can upgrade to our Pro or Premium plans.",
+  "q4": "Can I contribute my own study materials?",
+  "a4": "Absolutely! We encourage students to contribute. You can use the 'Add Exam' or 'Add Project' sections to upload your materials. This helps grow the repository and benefits the entire Abu Dhabi University community.",
+  "q5": "Is my personal data and uploaded content secure?",
+  "a5": "Yes. We prioritize your privacy and security. Your personal information is protected, and you have full control over the content you upload. Our platform is built with modern security standards to keep your data safe."
+},
+"footer": {
+  "brand": "Manara",
+  "tagline": "The ultimate academic companion for Abu Dhabi University students.",
+  "company": "Company",
+  "about": "About Us",
+  "features": "Features",
+  "pricing": "Subscription",
+  "quick": "Quick Links",
+  "home": "Home",
+  "exams": "Exams",
+  "projects": "Projects",
+  "contact": "Get In Touch",
+  "phone": "Phone",
+  "email": "Email",
+  "rights": "All Rights Reserved."
+},
+"topbarLanding": {
+    "features": "Features",
+    "about": "About",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "signIn": "Sign In",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode"
+  },
+  "pricing": {
+    "mainTitle": "Choose Your Plan",
+    "subTitle": "Simple, transparent pricing. Cancel anytime.",
+    "perMonth": "/month",
+    "paymentError": "Could not initiate payment. Please try again.",
+    "basic": {
+      "title": "Basic",
+      "description": "Get started and explore",
+      "features": [
+        "Browse all exams & projects",
+        "5 AI explanations per month",
+        "Community post access"
+      ],
+      "buttonText": "Sign Up for Free"
+    },
+    "pro": {
+      "title": "Pro",
+      "description": "The complete toolkit",
+      "features": [
+        "Unlimited AI explanations",
+        "Download all materials",
+        "Priority access to new content",
+        "No ads"
+      ],
+      "buttonText": "Go Pro"
+    },
+    "premium": {
+      "title": "Premium",
+      "description": "For power users & groups",
+      "features": [
+        "All Pro features",
+        "Group collaboration tools",
+        "1-on-1 AI tutor chat",
+        "Early access to beta features"
+      ],
+      "buttonText": "Get Premium"
+    }
+  }
+
+
+
+}
